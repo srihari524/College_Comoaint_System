@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.left-panel, .right-panel {
+    padding: 30px;
+}
+
+.left-panel {
+    background-color: #2c2f36;
+    width: 40%;
+    text-align: center;
+    position: relative;
+}
+
+.left-panel .brand img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.left-panel h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.left-panel p {
+    margin: 10px 0;
+}
+
+.left-panel .description {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.left-panel .learn-more {
+    background-color: #ff6200;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.right-panel {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
+
+.right-panel .login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-panel .login-form h2 {
+    margin-bottom: 20px;
+}
+
+.right-panel .login-form label {
+    margin: 10px 0 5px;
+}
+
+.right-panel .login-form input,
+.right-panel .login-form select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.right-panel .login-form .signup-button {
+    background-color: #ff6200;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+a{
+	color: blue;
+	text-decoration:none;
+}
